@@ -24,7 +24,7 @@ calculate(2, add=98, mul=10)
 
 
 class Car():
-    def __init__(self, **kw):
+    def __init__(self, **kw):   
         self.make = kw.get("make")
         self.model = kw.get("model")
         self.color = kw.get("color")
